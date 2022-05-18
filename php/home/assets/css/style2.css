@@ -1,0 +1,167 @@
+.Carousel a{
+    text-decoration: none;
+}
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #fff !important;
+    margin-top: 60px;
+}
+
+/* images */
+
+.Carousel .slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 35px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.Carousel .slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.Carousel .slick{
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+.Carousel .slick h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+.Carousel .slick h4 small{
+    font-size: 15px;
+    display: block;
+}
+.Carousel .slick a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.Carousel .slick a img:hover{
+    opacity: .85;
+}
+
+/* buttons */
+
+.Carousel .slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.Carousel .slick-arrow:focus{
+    outline: 0;
+}
+.Carousel .slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.Carousel .slick-prev{
+    left: 0px;
+}
+.Carousel .slick-next{
+    right: 0px;
+}
+.mt-5{
+    position: relative;
+    top: 54px;
+}
+iframe{
+    width: calc(100vw - 117px) !important;
+    height: calc(56.25vw - 73.125px) !important;
+    margin: 0 50px;
+}
+a.logouti {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil{
+    margin-top: 50px;
+}
+.perfil .container{
+    text-align: center;
+}
+.input-file {
+    position: relative;
+    height: 56px;
+    padding: 18px 16px 0;
+    transition: border .2s;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: #fff;
+    color: #202026;
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+}
+.input-content{
+    margin-bottom: 50px;
+}
+.input-input{
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 5px 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.input-label{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    transition: top .2s,font-size .2s;
+    opacity: .5;
+    line-height: 18px;
+    pointer-events: none;
+}
+.perfil .guardar{
+    padding: 20px;
+    background-color: #202026;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.fle{
+    display: flex;
+}
